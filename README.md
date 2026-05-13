@@ -1,17 +1,19 @@
 # Data Mining Classification & Clustering
 
-This project applies core data mining techniques across multiple datasets. It includes four supervised classification tasks and two unsupervised clustering tasks, with a focus on preprocessing, model comparison, and evaluation.
+This project applies core data mining techniques across multiple datasets. It includes supervised classification tasks and unsupervised clustering tasks, with a focus on preprocessing, model comparison, evaluation, and result interpretation.
 
 ## Project Overview
 
-The project is divided into two parts:
+The project is divided into two main parts:
 
-1. **Classification**: comparing Decision Tree, K-Nearest Neighbors, and Naive Bayes across four datasets.
-2. **Clustering**: applying K-Means clustering and using inertia values with the elbow method to evaluate cluster quality.
+1. **Classification** — comparing Decision Tree, K-Nearest Neighbors, and Naive Bayes across multiple datasets.
+2. **Clustering** — applying K-Means clustering and using inertia values with the elbow method to evaluate cluster quality.
+
+This project demonstrates practical experience in data preprocessing, machine learning model training, evaluation metrics, and structured data mining analysis.
 
 ## Datasets
 
-| Task | Dataset Description | Rows | Columns | Target / Excluded Column |
+| Task | Dataset | Rows | Columns | Target / Excluded Column |
 |---|---:|---:|---:|---|
 | Classification 1 | Student performance | 484 | 3 | `Pass` |
 | Classification 2 | Purchase prediction | 380 | 4 | `Purchased` |
@@ -43,7 +45,7 @@ For classification tasks, the models were evaluated using:
 - F1-score
 - Confusion Matrix
 
-For clustering tasks, inertia values were compared for different values of `k`.
+For clustering tasks, inertia values were compared across different values of `k` to identify possible elbow points.
 
 ## Key Results
 
@@ -70,7 +72,3 @@ For the clustering tasks, the first clustering dataset showed a clearer elbow pa
 - `data/` — CSV datasets used in the analysis.
 - `docs/data_mining_project_report.pdf` — Final report summarizing methodology and results.
 - `requirements.txt` — Python libraries required to run the notebooks.
-
-## What I Learned
-
-Through this project, I practiced applying supervised and unsupervised machine learning techniques, comparing model behavior across different datasets, using evaluation metrics, and interpreting results in a structured data mining report.
